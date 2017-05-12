@@ -1,7 +1,7 @@
 // @flow
 
 /**
- * The backgrounds shorthand accepts any number of background values as parameters for creating a single background statement..
+ * Thorthand that accepts any number of background values as parameters for creating a single background statement.
  * @example
  * // Styles as object usage
  * const styles = {
@@ -21,7 +21,7 @@
  */
 function backgrounds(...properties: Array<string>) {
   return {
-    'background': properties.join(', '),
+    background: properties.join(', '),
   }
 }
 
